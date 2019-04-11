@@ -1,0 +1,4 @@
+
+生成一个字符串对应的无符号唯一数字
+
+UUID.randomUUID().toString().replaceAll("-", "")
